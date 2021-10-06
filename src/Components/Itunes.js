@@ -7,7 +7,7 @@ function Itunes() {
   return (
     <div className="section content-container">
       <img src={logo} alt="" className="spotify-image" />
-      <Button href="https://music.apple.com/us/artist/waiting-for-smith/1192026265" variant="secondary">Play</Button>
+      <Button href="https://music.apple.com/us/artist/waiting-for-smith/1192026265" variant="light">Play</Button>
       {/* <a href="https://music.apple.com/us/artist/waiting-for-smith/1192026265">iTunes Music</a> */}
     </div>
   )
