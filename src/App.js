@@ -18,12 +18,12 @@ function App() {
       <img src={logo} alt="Harry waiting for smith" className="logo" />
         <img src={pic} alt="Harry waiting for smith" className="picture" />
         <ListGroup variant="flush">
-          <ListGroupItem>
-            <Itunes />
-          </ListGroupItem>
           <ListGroup.Item>
             <Spotify />
           </ListGroup.Item>
+          <ListGroupItem>
+            <Itunes />
+          </ListGroupItem>
           <ListGroup.Item>
             <Instagram />
           </ListGroup.Item>

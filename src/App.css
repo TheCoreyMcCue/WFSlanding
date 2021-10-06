@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80vw;
 }
 .card {
   margin: 0 auto; /* Added */
@@ -25,4 +26,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spotify-image {
+  height: 60px;
+  width: 80px;
 }
