@@ -25,9 +25,6 @@ function App() {
             <Itunes />
           </ListGroupItem>
           <ListGroup.Item>
-            <Instagram />
-          </ListGroup.Item>
-          <ListGroup.Item>
             <Youtube />
           </ListGroup.Item>
           <ListGroup.Item>
@@ -35,6 +32,9 @@ function App() {
           </ListGroup.Item>
           <ListGroup.Item>
             <Hopeless />
+          </ListGroup.Item>
+          <ListGroup.Item>
+            <Instagram />
           </ListGroup.Item>
           <ListGroup.Item>
             <Website />
