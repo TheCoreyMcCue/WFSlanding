@@ -7,7 +7,8 @@
   margin: 0 auto; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */;
-  margin-top: 15%;
+  margin-top: 3%;
+  width: 80vw;
 }
 /* .section {
   border-top: 1px solid black;
@@ -16,4 +17,12 @@
 .picture {
   height: 20%;
   width: 100%;
+}
+
+.logo {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
