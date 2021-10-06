@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Button } from 'react-bootstrap';
+import logo from './photos/itunes.png';
 
 function Hopeless() {
   return (
-    <div>
-      <a href="https://music.apple.com/gb/album/hopelessness-of-love-ep/1569151487">Hopelessness of Love</a>
+    <div className="content-container">
+      <img src={logo} alt="" className="spotify-image" />
+      <Button href="https://music.apple.com/gb/album/hopelessness-of-love-ep/1569151487" variant="outline-secondary">Purchase</Button>
+      {/* <a href="https://music.apple.com/gb/album/hopelessness-of-love-ep/1569151487">Hopelessness of Love</a> */}
     </div>
   )
 }
