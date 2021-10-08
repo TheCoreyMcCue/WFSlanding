@@ -6,7 +6,7 @@ import '../../src/App.css';
 function Website() {
   return (
     <div className="content-container">
-      <img src={logo} alt="" className="website-image" />
+      <img src={logo} alt="Visit our Website" className="website-image" />
       <Button href="https://www.waitingforsmith.co.uk/" variant="outline-secondary">Visit</Button>
     </div>
   )

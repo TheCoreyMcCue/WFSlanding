@@ -6,7 +6,7 @@ import '../../src/App.css';
 function Deezer() {
   return (
     <div className="content-container">
-      <img src={logo} alt="" className="deezer-image" />
+      <img src={logo} alt="Listen on Deezer" className="deezer-image" />
       <Button href="https://www.deezer.com/en/artist/11654939" variant="outline-secondary">Play</Button>
       {/* <a href="https://www.deezer.com/en/artist/11654939">Deezer</a> */}
     </div>
