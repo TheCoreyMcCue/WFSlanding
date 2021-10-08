@@ -13,7 +13,7 @@ import logo from './logoWFS.jpg'
 
 function App() {
   return (
-    <>
+    <div className="site">
       <Card style={{ width: '18rem' }} className="entire-container card">
       <img src={logo} alt="Harry waiting for smith" className="logo" />
         <img src={pic} alt="Harry waiting for smith" className="picture" />
@@ -41,7 +41,7 @@ function App() {
           </ListGroup.Item>
         </ListGroup>
       </Card>
-    </>
+    </div>
   )
 }
 
