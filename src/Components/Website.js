@@ -7,7 +7,7 @@ function Website() {
   return (
     <div className="content-container">
       <img src={logo} alt="" className="website-image" />
-      <Button href="https://www.waitingforsmith.com/" variant="outline-secondary">Visit</Button>
+      <Button href="https://www.waitingforsmith.co.uk/" variant="outline-secondary">Visit</Button>
     </div>
   )
 }
