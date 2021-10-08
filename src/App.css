@@ -5,15 +5,12 @@
   width: 80vw;
 }
 .card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */;
+  margin: 0 auto;
+  float: none;
+  /* margin-bottom: 10px; */
   padding-top: 3%;
   width: 80vw;
 }
-/* .section {
-  border-top: 1px solid black;
-} */
 
 .picture {
   height: 35vh;
