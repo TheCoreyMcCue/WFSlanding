@@ -6,9 +6,8 @@ import '../../src/App.css';
 function Website() {
   return (
     <div className="content-container">
-      <img src={logo} alt="" className="spotify-image" />
+      <img src={logo} alt="" className="website-image" />
       <Button href="https://www.waitingforsmith.com/" variant="outline-secondary">Visit</Button>
-      {/* <a href="https://www.waitingforsmith.com/">Website</a> */}
     </div>
   )
 }

@@ -5,9 +5,8 @@ import logo from './photos/itunes.png';
 function Hopeless() {
   return (
     <div className="content-container">
-      <img src={logo} alt="" className="spotify-image" />
+      <img src={logo} alt="" className="hopeless-image" />
       <Button href="https://music.apple.com/gb/album/hopelessness-of-love-ep/1569151487" variant="outline-secondary">Buy</Button>
-      {/* <a href="https://music.apple.com/gb/album/hopelessness-of-love-ep/1569151487">Hopelessness of Love</a> */}
     </div>
   )
 }

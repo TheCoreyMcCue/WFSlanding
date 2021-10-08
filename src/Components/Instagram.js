@@ -6,9 +6,8 @@ import '../../src/App.css';
 function Instagram() {
   return (
     <div className="content-container">
-      <img src={logo} alt="" className="spotify-image" />
+      <img src={logo} alt="" className="insta-image" />
       <Button href="https://www.instagram.com/waitingforsmith/" variant="outline-secondary">Follow</Button>
-      {/* <a href="https://www.instagram.com/waitingforsmith/">Instagram</a> */}
     </div>
   )
 }
