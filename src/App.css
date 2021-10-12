@@ -46,6 +46,7 @@
   height: 35px;
   width: 50px;
   margin-right: 30%;
+  position: relative;
 }
 .itunes-image {
   height: 80px;
@@ -70,4 +71,8 @@
 
 .site {
   background-color: black;
+}
+
+.hopeless-button {
+  margin-left: 20%;
 }

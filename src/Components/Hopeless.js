@@ -6,7 +6,7 @@ function Hopeless() {
   return (
     <div className="content-container">
       <img src={logo} alt="Purchase WFS Music" className="hopeless-image" />
-      <Button href="https://music.apple.com/gb/album/hopelessness-of-love-ep/1569151487" variant="outline-secondary">Buy</Button>
+      <Button className="hopeless-button" href="https://music.apple.com/gb/album/hopelessness-of-love-ep/1569151487" variant="outline-secondary">Buy</Button>
     </div>
   )
 }
