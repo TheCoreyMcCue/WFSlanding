@@ -98,9 +98,9 @@
   image-rendering: -webkit-optimize-contrast;
 }
 .hopeless-image {
-  height: 10vh;
-  width: 20vw;
-  margin: 0 -4% -3%;
+  height: 12vh;
+  width: 22vw;
+  margin: 0 -5% -3%;
   position: relative;
   image-rendering: auto;
   image-rendering: crisp-edges;
