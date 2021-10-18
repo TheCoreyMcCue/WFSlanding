@@ -75,14 +75,14 @@
   margin-right: 30%;
 }
 .insta-image {
-  height: 8vh;
+  height: 7.5vh;
   width: 27vw;
   margin: 0 -4% 5%;
 }
 .hopeless-image {
   height: 7vh;
   width: 20vw;
-  margin-right: 30%;
+  margin: 0 1% 5%;
   position: relative;
 }
 .itunes-image {
@@ -99,8 +99,8 @@
 }
 .website-image {
   height: 7vh;
-  width: 25vw;
-  margin-right: 30%;
+  width: 20vw;
+  margin: 0 1% 5%;
 }
 .deezer-image {
   height: 10vh;
