@@ -27,7 +27,7 @@
 .fa-apple {
   color: white !important;
   margin-right: 5px;
-font-size: 5vh;
+  font-size: 5vh;
 }
 .apple-text {
   color: white;
@@ -76,7 +76,7 @@ font-size: 5vh;
 .insta-image {
   height: 7vh;
   width: 30vw;
-  margin-right: 40%;
+  margin-right: 30%;
 }
 .hopeless-image {
   height: 7vh;
