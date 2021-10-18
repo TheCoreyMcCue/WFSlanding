@@ -12,6 +12,7 @@
   /* padding-top: 3%; */
   width: 80vw;
   background-color: grey;
+  border: none !important;
 }
 
 .picture {
