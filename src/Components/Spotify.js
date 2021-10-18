@@ -7,7 +7,8 @@ function Spotify() {
   return (
     <div className="content-container">
       <img src={logo} alt="Listen on Spotify" className="spotify-image" />
-      <Button href="https://open.spotify.com/artist/57oieIojgviKMyTtzG4kn2?si=rjZkfDosS3WLFU5nPM2rwA&dl_branch=1" variant="outline-secondary">Play</Button>
+      {/* <i class="fab fa-spotify"></i> */}
+      <Button href="https://open.spotify.com/artist/57oieIojgviKMyTtzG4kn2?si=rjZkfDosS3WLFU5nPM2rwA&dl_branch=1" variant="secondary">Play</Button>
     </div>
   )
 }

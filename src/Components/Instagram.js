@@ -7,7 +7,7 @@ function Instagram() {
   return (
     <div className="content-container">
       <img src={logo} alt="Follow on Instagram" className="insta-image" />
-      <Button href="https://www.instagram.com/waitingforsmith/" variant="outline-secondary">Follow</Button>
+      <Button href="https://www.instagram.com/waitingforsmith/" variant="secondary">Follow</Button>
     </div>
   )
 }

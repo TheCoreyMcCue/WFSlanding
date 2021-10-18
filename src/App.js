@@ -9,7 +9,7 @@ import Deezer from './Components/Deezer';
 import Website from './Components/Website';
 import Hopeless from './Components/Hopeless';
 import pic from './Portret-1059.jpg'
-import logo from './logoWFS.jpg'
+import logo from './logo-wfs.png';
 
 function App() {
   return (
