@@ -74,13 +74,13 @@
   margin-right: 30%;
 }
 .insta-image {
-  height: 7vh;
+  height: 10vh;
   width: 30vw;
   margin-right: 30%;
 }
 .hopeless-image {
   height: 7vh;
-  width: 30vw;
+  width: 25vw;
   margin-right: 30%;
   position: relative;
 }
@@ -111,9 +111,9 @@
   background-color: black;
 }
 
-.hopeless-button {
+/* .hopeless-button {
   margin-left: 20%;
-}
+} */
 
 .list-group-item {
   background-color: black !important;
