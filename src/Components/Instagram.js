@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import logo from './photos/instagram.svg';
+import logo from './photos/Instagram-logo.png';
 import '../../src/App.css';
 
 function Instagram() {

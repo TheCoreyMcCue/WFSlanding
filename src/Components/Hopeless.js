@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import logo from './photos/itunes-white.png';
+import logo from './photos/Itunes-logo.png';
 
 function Hopeless() {
   return (

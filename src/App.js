@@ -8,7 +8,7 @@ import Youtube from './Components/Youtube';
 import Deezer from './Components/Deezer';
 import Website from './Components/Website';
 import Hopeless from './Components/Hopeless';
-import pic from './Portret-1059.jpg'
+import pic from './Square-potret.jpg'
 import logo from './logo-wfs.png';
 
 function App() {
