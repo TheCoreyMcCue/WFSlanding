@@ -65,7 +65,7 @@
   align-items: center;
   height: 10vh;
   background-color: black;
-  /* border-bottom: 1px solid grey; */
+  border-bottom: 1px solid grey;
 
 }
 .spotify-image {
