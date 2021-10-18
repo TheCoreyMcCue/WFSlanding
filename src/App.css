@@ -128,8 +128,8 @@
   image-rendering: -webkit-optimize-contrast;
 }
 .website-image {
-  height: 7vh;
-  width: 16vw;
+  height: 6vh;
+  width: 15vw;
   margin: 0 -1% 5%;
   image-rendering: auto;
   image-rendering: crisp-edges;
