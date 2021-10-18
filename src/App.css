@@ -73,17 +73,35 @@
   height: 10vh;
   width: 30vw;
   margin-right: 30%;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
 }
 .insta-image {
   height: 6.5vh;
   width: 15vw;
   margin: 0 1% 5%;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
 }
 .hopeless-image {
   height: 10vh;
   width: 20vw;
   margin: 0 -2% -3%;
   position: relative;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
 }
 .itunes-image {
   height: 80px;
@@ -96,17 +114,35 @@
   height: 8vh;
   width: 30vw;
   margin-right: 30%;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
 }
 .website-image {
   height: 7vh;
   width: 19vw;
   margin: 0 1% 5%;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
 }
 .deezer-image {
   height: 10vh;
   width: 30vw;
   margin-right: 30%;
   margin: 0 1% 3%;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .site {
