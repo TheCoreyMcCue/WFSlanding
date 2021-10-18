@@ -15,7 +15,8 @@ function App() {
   return (
     <div className="site">
       <Card style={{ width: '18rem' }} className="entire-container card">
-      <img src={logo} alt="Harry waiting for smith" className="logo" />
+        <img src={logo} alt="Harry waiting for smith" className="logo" />
+        <div className="border-div">
         <img src={pic} alt="Harry waiting for smith" className="picture" />
         <ListGroup variant="flush">
           <ListGroup.Item>
@@ -40,6 +41,7 @@ function App() {
             <Website />
           </ListGroup.Item>
         </ListGroup>
+        </div>
       </Card>
     </div>
   )

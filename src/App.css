@@ -97,6 +97,10 @@
   /* Safari seems to support, but seems deprecated and does the same thing as the others. */
   image-rendering: -webkit-optimize-contrast;
 }
+
+.border-div {
+  border: 1px solid white;
+}
 .hopeless-image {
   height: 12vh;
   width: 22vw;
