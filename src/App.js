@@ -1,5 +1,6 @@
 import insta from './assets/instagram.jpeg';
 import web from './assets/web.jpeg';
+import harry from './assets/harry.png';
 
 function App() {
 	return (
@@ -18,7 +19,7 @@ function App() {
 			>
 				<img
 					className='w-full h-auto rounded-t-lg object-cover'
-					src='https://cloudinary-cdn.ffm.to/s--Lww2iJVo--/f_webp/https%3A%2F%2Fimagestore.ffm.to%2Flink%2Ff419f7e0f9d40fa85eedd9fc60777e17.jpg'
+					src={harry}
 					alt=''
 				/>
 
