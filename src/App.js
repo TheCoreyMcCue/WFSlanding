@@ -11,11 +11,11 @@ function App() {
 			}}
 		>
 			<body
-				className='flex flex-col my-6 content-center max-w-xs h-auto rounded-b-lg'
-				style={{
-					border: '1px solid grey',
-					borderRadius: '15px',
-				}}
+				className='flex flex-col my-6 content-center max-w-xs h-auto rounded-b-lg shadow-2xl'
+				// style={{
+				// 	border: '1px solid grey',
+				// 	borderRadius: '15px',
+				// }}
 			>
 				<img
 					className='w-full h-auto rounded-t-lg object-cover'
