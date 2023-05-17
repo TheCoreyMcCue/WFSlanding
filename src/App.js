@@ -18,7 +18,7 @@ function App() {
 			>
 				<img
 					className='w-full h-auto rounded-t-lg object-cover'
-					src='https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/315952203_666268145117308_8333315507373455161_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=khk4EBQJmS8AX-NSXQn&_nc_ht=scontent-ams2-1.xx&oh=00_AfBGjfdmRrLTsG0u8eT1ZS6EI4d0eaHog7OZxGFHhPuTCw&oe=646AADFD'
+					src='https://cloudinary-cdn.ffm.to/s--Lww2iJVo--/f_webp/https%3A%2F%2Fimagestore.ffm.to%2Flink%2Ff419f7e0f9d40fa85eedd9fc60777e17.jpg'
 					alt=''
 				/>
 
