@@ -122,7 +122,7 @@ function App() {
 				</div>
 
 				<div className='flex w-full justify-between items-center border-b-2 border-slate-200 p-3 bg-slate-50'>
-					<img className='h-auto w-1/6 object-scale-down' src={insta} alt='' />
+					<img className='h-8 w-1/6 object-scale-down' src={insta} alt='' />
 					<button className='bg-transparent flex justify-center items-center h-8 w-24 hover:bg-slate-500 text-slate-700 hover:text-white py-2 px-4 border border-slate-300 hover:border-transparent rounded'>
 						<a
 							href='https://www.instagram.com/waitingforsmith/?hl=en'
@@ -135,7 +135,7 @@ function App() {
 					</button>
 				</div>
 				<div className='flex w-full justify-between items-center p-3 bg-slate-50 rounded-b-lg'>
-					<img className='h-auto w-1/6 object-scale-down' src={web} alt='' />
+					<img className='h-8 w-1/6 object-scale-down' src={web} alt='' />
 					<button className='bg-transparent flex justify-center items-center h-8 w-24 hover:bg-slate-500 text-slate-700 hover:text-white py-2 px-4 border border-slate-300 hover:border-transparent rounded'>
 						<a
 							href='https://www.waitingforsmith.co.uk/'
