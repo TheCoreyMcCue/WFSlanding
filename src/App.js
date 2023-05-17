@@ -24,7 +24,7 @@ function App() {
 
 				<div className='flex w-full justify-between p-3 bg-slate-50'>
 					<img
-						className='h-auto w-2/6 object-cover'
+						className='h-auto w-2/6 object-scale-down'
 						src='https://cloudinary-cdn.ffm.to/s--e_GXTT_B--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_spotify.png'
 						alt=''
 					/>
@@ -41,7 +41,7 @@ function App() {
 				</div>
 				<div className='flex w-full justify-between p-3 border-y-2 border-slate-200 bg-slate-50'>
 					<img
-						className='h-auto w-2/6 object-cover'
+						className='h-auto w-2/6 object-scale-down'
 						src='https://cloudinary-cdn.ffm.to/s--LpZFcfe0--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_applemusic_listen.png'
 						alt=''
 					/>
@@ -59,7 +59,7 @@ function App() {
 
 				<div className='flex w-full justify-between p-3 border-b-2 border-slate-200 bg-slate-50'>
 					<img
-						className='h-auto w-2/6 object-cover'
+						className='h-auto w-2/6 object-scale-down'
 						src='https://cloudinary-cdn.ffm.to/s--BuOsZiLg--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_deezer.png'
 						alt=''
 					/>
@@ -76,7 +76,7 @@ function App() {
 				</div>
 				<div className='flex w-full justify-between p-3 border-b-2 border-slate-200 bg-slate-50'>
 					<img
-						className='h-auto w-2/6 object-cover'
+						className='h-auto w-2/6 object-scale-down'
 						src='https://cloudinary-cdn.ffm.to/s--uf3wpRWG--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_amazon.png'
 						alt=''
 					/>
@@ -93,7 +93,7 @@ function App() {
 				</div>
 				<div className='flex w-full justify-between p-3 border-b-2 border-slate-200 bg-slate-50'>
 					<img
-						className='h-auto w-2/6 object-cover'
+						className='h-auto w-2/6 object-scale-down'
 						src='https://cloudinary-cdn.ffm.to/s--wJHSivtl--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_tidal.png'
 						alt=''
 					/>
@@ -110,7 +110,7 @@ function App() {
 				</div>
 				<div className='flex w-full justify-between p-3 border-b-2 border-slate-200 bg-slate-50 '>
 					<img
-						className='h-auto w-2/6 object-cover'
+						className='h-auto w-2/6 object-scale-down'
 						src='https://cloudinary-cdn.ffm.to/s--abCrNs3k--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_pandora.png'
 						alt=''
 					/>
@@ -127,7 +127,7 @@ function App() {
 				</div>
 
 				<div className='flex w-full justify-between border-b-2 border-slate-200 p-3 bg-slate-50'>
-					<img className='h-auto w-1/6 object-cover' src={insta} alt='' />
+					<img className='h-auto w-1/6 object-scale-down' src={insta} alt='' />
 					<button className='bg-transparent max-h-12 w-2/6 hover:bg-slate-500 text-slate-700 font-semibold hover:text-white py-2 px-4 border border-slate-500 hover:border-transparent rounded'>
 						<a
 							href='https://www.instagram.com/waitingforsmith/?hl=en'
@@ -140,7 +140,7 @@ function App() {
 					</button>
 				</div>
 				<div className='flex w-full justify-between p-3 bg-slate-50 rounded-b-lg'>
-					<img className='h-auto w-1/6 object-cover' src={web} alt='' />
+					<img className='h-auto w-1/6 object-scale-down' src={web} alt='' />
 					<button className='bg-transparent max-h-10 w-2/6 hover:bg-slate-500 text-slate-700 font-semibold hover:text-white py-2 px-4 border border-slate-500 hover:border-transparent rounded'>
 						<a
 							href='https://www.waitingforsmith.co.uk/'
