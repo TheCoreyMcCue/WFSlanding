@@ -23,7 +23,7 @@ function App() {
     >
       <div
         id="container"
-        className={`flex flex-col items-center max-w-md w-5/6 bg-white rounded-lg shadow-lg overflow-hidden transition-opacity transition-transform duration-700 ease-in-out ${
+        className={`flex flex-col items-center max-w-md w-5/6 bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-700 ease-in-out ${
           isLoaded ? "opacity-100 scale-100" : "opacity-0 scale-90"
         }`}
       >
