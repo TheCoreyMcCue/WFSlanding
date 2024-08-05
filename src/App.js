@@ -6,12 +6,7 @@ import harry from "./assets/harry.png";
 
 function App() {
   return (
-    <section
-      className="flex justify-center items-center min-h-screen bg-cover bg-center backdrop-blur-md p-4"
-      style={{
-        backgroundImage: `url("https://img.freepik.com/premium-photo/grey-blur-background_76542-225.jpg?w=2000")`,
-      }}
-    >
+    <section className="flex justify-center items-center min-h-screen bg-gradient-to-br from-orange-200 via-orange-100 to-red-200 backdrop-blur-md p-4">
       <div
         id="container"
         className="flex flex-col items-center max-w-md w-5/6 bg-white rounded-lg shadow-lg overflow-hidden"
@@ -51,7 +46,7 @@ function App() {
 
           <Social
             icon="https://cloudinary-cdn.ffm.to/s--abCrNs3k--/h_64,c_scale/f_webp/https%3A%2F%2Fassets.ffm.to%2Fimages%2Flogo%2Fmusic-service_pandora.png"
-            link="https://api.ffm.to/sl/e/c/hopelessness-of-love?cd=eyJ1YSI6eyJ1YSI6Ik1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMTIuMC4wLjAgU2FmYXJpLzUzNy4zNiIsImJyb3dzZXIiOnsibmFtZSI6IkNocm9tZSIsInZlcnNpb24iOiIxMTIuMC4wLjAiLCJtYWpvciI6IjExMiJ9LCJlbmdpbmUiOnsibmFtZSI6IkJsaW5rIiwidmVyc2lvbiI6IjExMi4wLjAuMCJ9LCJvcyI6eyJuYW1lIjoiTWFjIE9TIiwidmVyc2lvbiI6IjEwLjE1LjcifSwiZGV2aWNlIjp7fSwiY3B1Ijp7fX0sImNsaWVudCI6eyJyaWQiOiJkMmFhYTY0ZC04ZWE4LTRhNzQtYmQ4YS01Mjg3Mzg2NWI0MWYiLCJzaWQiOiJiMTg5MTVkMi00N2E4LTQ1ZDUtOGY1MS0yMWQ2MmRiOTZmZjgiLCJpcCI6IjE3OC44NS42Ni4xNTMiLCJyZWYiOiJodHRwczovL2wuZmFjZWJvb2suY29tLyIsImhvc3QiOiJkaXR0by5mbSIsImxhbmciOiJlbi1VUyIsImlwQ291bnRyeSI6Ik5MIn0sImlzV2VicFN1cHBvcnRlZCI6dHJ1ZSwiaXNGcm9tRVUiOnRydWUsImNvdW50cnlDb2RlIjoiTkwiLCJ1c2VBZmYiOiJvcmlnaW4iLCJpZCI6IjYwNzBmOGQxNDUwMDAwMTMwMDU2MGQ0ZiIsInBydiI6ZmFsc2UsImlzUHJlUiI6ZmFsc2UsInR6byI6bnVsbCwiY2giOm51bGwsImFuIjpudWxsLCJkZXN0VXJsIjoiaHR0cHM6Ly9wYW5kb3JhLmFwcC5saW5rLz8kZGVza3RvcF91cmw9aHR0cHMlM0ElMkYlMkZ3d3cucGFuZG9yYS5jb20lMkZhcnRpc3QlMkZ3YWl0aW5nLWZvci1zbWl0aCUyRmxpbmVzLW9mLWxvdmUtc2luZ2xlJTJGQUw1S2xmaDduNzUyNHBjJiRpb3NfZGVlcGxpbmtfcGF0aD1wYW5kb3JhdjQlM0ElMkYlMkZiYWNrc3RhZ2UlMkZhbGJ1bSUzRnRva2VuJTNEQUwlM0E1NTg5MDA2JiRhbmRyb2lkX2RlZXBsaW5rX3BhdGg9cGFuZG9yYXY0JTNBJTJGJTJGYmFja3N0YWdlJTJGYWxidW0lM0Z0b2tlbiUzREFMJTNBNTU4OTAwNiZ-Y2hhbm5lbD1QYXJ0bmVyJTIwQ2F0YWxvZyUyMFNlYXJjaCUyMEFQSSIsInZpZCI6ImI1YWFkMDJjLTM1NmMtNDMwYi1iZDY4LWJhMTdjODUyZGU3MSIsInNydmMiOiJwYW5kb3JhIiwicHJvZHVjdCI6InNtYXJ0bGluayIsInNob3J0SWQiOiJob3BlbGVzc25lc3Mtb2YtbG92ZSIsImlzQXV0aG9yaXphdGlvblJlcXVpcmVkIjpmYWxzZSwib3duZXIiOiI1YzUwYjUxZDE0MDAwMDE5MDA2ODY4OTEiLCJ0ZW5hbnQiOiI1ZDJjMjk2M2YwZDUxZWViZDI0ZTc3ODciLCJhciI6IjVjYTNiODcyMGUwMDAwMGJhMzliYzRlMiIsImlzU2hvcnRMaW5rIjpmYWxzZX0"
+            link="https://www.pandora.com/artist/waiting-for-smith/ARa3ggX5KJJkhw9"
           />
 
           <Social
