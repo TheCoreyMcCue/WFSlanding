@@ -14,7 +14,7 @@ function App() {
     >
       <div
         id="container"
-        className="flex flex-col items-center max-w-md w-3/4 bg-white rounded-lg shadow-lg overflow-hidden"
+        className="flex flex-col items-center max-w-md w-5/6 bg-white rounded-lg shadow-lg overflow-hidden"
       >
         <img
           id="top-image"
