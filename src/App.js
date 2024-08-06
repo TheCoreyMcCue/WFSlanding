@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Social from "./components/Social";
 
+import bgImage from "./assets/Raised-Up.jpg";
 import insta from "./assets/instagram.jpeg";
 import web from "./assets/web.jpeg";
 import harry from "./assets/harry.png";
@@ -18,7 +19,7 @@ function App() {
     <section
       className="flex justify-center items-center min-h-screen bg-cover bg-center p-4"
       style={{
-        backgroundImage: `url("https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/421995361_931259405284846_7727363143914051329_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Co-KFxomSGAQ7kNvgGMH2b_&_nc_ht=scontent-ams4-1.xx&oh=00_AYDhLN_yHOA4OVzYQAIa01vnRT_b782yHy4aOC-UnNzJXw&oe=66B6F4F7")`,
+        backgroundImage: `url(${bgImage})`, // Use the imported local image
       }}
     >
       <div
