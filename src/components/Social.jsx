@@ -3,26 +3,37 @@ import React from "react";
 const Social = ({
   icon,
   link,
+  label,
   buttonText = "Listen",
-  height = "h-auto",
-  width = "w-2/6",
+  height = "h-8",
+  width = "w-8",
 }) => {
-  const imageScaling = `${height} ${width} object-scale-down`;
-
   return (
-    <div className="flex items-center justify-between w-full border-b border-slate-200 p-4 hover:bg-slate-100 transition ease-in-out duration-300">
-      <img
-        className={`${imageScaling} w-1/5`}
-        src={icon}
-        alt="Social Icon"
-        onError={(e) => (e.target.src = "https://via.placeholder.com/64")}
-      />
-      <a href={link} target="_blank" rel="noreferrer">
-        <button className="bg-transparent flex justify-center items-center h-10 w-28 hover:bg-slate-500 hover:text-white text-slate-700 py-2 px-4 border border-slate-300 hover:border-transparent rounded-full transition ease-in-out duration-300">
-          {buttonText}
-        </button>
-      </a>
-    </div>
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className="flex items-center justify-between w-full border-b border-white/10 px-5 py-3 hover:bg-white/10 transition-all duration-300 group"
+    >
+      <div className="flex items-center gap-4">
+        <div className="bg-white rounded-xl p-1.5 flex items-center justify-center h-12 w-12 shrink-0">
+          <img
+            className={`${height} ${width} object-contain`}
+            src={icon}
+            alt={label || "Social Icon"}
+            onError={(e) => (e.target.src = "https://via.placeholder.com/64")}
+          />
+        </div>
+        {label && (
+          <span className="text-white/70 text-sm font-medium tracking-wide group-hover:text-white transition-colors duration-300">
+            {label}
+          </span>
+        )}
+      </div>
+      <span className="text-xs text-white/30 font-medium uppercase tracking-widest group-hover:text-white/60 transition-colors duration-300">
+        {buttonText} ›
+      </span>
+    </a>
   );
 };
 
