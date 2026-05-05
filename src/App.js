@@ -17,19 +17,6 @@ function App() {
 
   return (
     <>
-      <div className="w-full bg-red-600 text-white text-center py-3 font-bold shadow-md z-50 px-2">
-        <a
-          href="https://www.waitingforsmith.co.uk/#comp-m8ni8n6s"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          🎟️ Buy Tickets to the Joy of Living Tour –
-          <br className="block sm:hidden" />
-          <span className="sm:inline"> On Sale Now! 🎟️</span>
-        </a>
-      </div>
-
       <section
         className="flex justify-center items-center min-h-screen bg-cover bg-center p-4"
         style={{
